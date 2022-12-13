@@ -11,6 +11,8 @@
   --background-color: #e5e5e5;
   --button-hover-color: #404bbf;
   --background-team-color: #f4f4fd;
+  --footer-icon-color: #31D0AA;
+  --costumers-border-color: #8E8F99;
 }
 
 h1,
@@ -288,6 +290,8 @@ img {
   column-gap: 24px;
   flex-wrap: wrap;
   margin-top: 8px;
+  justify-content: center;
+
 }
 
 .social-list-item {
@@ -295,16 +299,70 @@ img {
   align-items: center;
   grid-gap: 24px;
   border-radius: 50px;
+  justify-content: center;
+  
+  
 }
 
 .social-list-icon {
   width: 40px;
   height: 40px;
+  }
+
+/*Customers*/
+
+.customers-section{
+  padding-top: 40px;
+  padding-bottom: 120px
 }
 
-.social-list-item.instagram{
-background-image: url("/images/icons.svg#icon-insta");
+.customers-title{
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+margin-bottom: 72px;
+
 }
+.customers-list{
+  list-style: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  column-gap: 24px ;
+
+
+  
+}
+.customers-list-item{
+  display: flex;
+  width: 168px;
+  height: 88px;
+  border: 1px solid var(--costumers-border-color);
+  border-radius: 4px;
+  color: var(--costumers-border-color);
+  align-items: center;
+  justify-content: center;
+}
+
+.customers-list-icon{
+  fill: currentColor;
+}
+
+.customers-list-item:hover{
+color: var(--primary-band);
+border: 1px solid var(--primary-band);
+}
+
+.customers-list-item:focus{
+  color: var(--primary-band);
+  border: 1px solid var(--primary-band);
+}
+
+
 
 /*PORTFOLIO*/
 
