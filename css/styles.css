@@ -303,7 +303,7 @@ img {
 }
 
 .social-list-item.instagram{
-background-image: url(/images/icons.svg#icon-insta);
+background-image: url("/images/icons.svg#icon-insta");
 }
 
 /*PORTFOLIO*/
