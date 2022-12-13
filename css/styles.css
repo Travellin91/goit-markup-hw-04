@@ -527,3 +527,14 @@ border: 1px solid var(--primary-band);
   padding-bottom: 100px;
   background-color: var(--title-color);
 }
+
+.social-media{
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+
+}
