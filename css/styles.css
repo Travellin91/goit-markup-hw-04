@@ -13,6 +13,7 @@
   --background-team-color: #f4f4fd;
   --footer-icon-color: #31D0AA;
   --costumers-border-color: #8E8F99;
+  --media-color: #565766;
 }
 
 h1,
@@ -497,6 +498,10 @@ border: 1px solid var(--primary-band);
 
 /*Footer*/
 
+.footer-container{
+display: block;
+}
+
 .footer-logo {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -525,7 +530,13 @@ border: 1px solid var(--primary-band);
   padding-top: 100px;
   padding-right: 0 auto;
   padding-bottom: 100px;
+  padding-left: 156px;
   background-color: var(--title-color);
+  display: flex;
+}
+
+.footer-media{
+display: block;
 }
 
 .social-media{
@@ -536,5 +547,43 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
+justify-content: center;
+align-items: center;
+margin-bottom: 16px;
+padding-left: 120px;
+
 
 }
+
+.social-media-type-list{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 16px;
+  padding-left: 120px;
+  }
+
+  .social-media-list-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #565766;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .social-media-list-icon{
+    fill: currentColor;
+  }
+
+  .social-media-list-icon:hover{
+    color: var(--footer-icon-color);
+  }
+  .social-media-list-icon:focus{
+    color: var(--footer-icon-color);
+  }
+
+
