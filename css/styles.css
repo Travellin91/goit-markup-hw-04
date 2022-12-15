@@ -105,6 +105,10 @@ img {
   background-color: var(--button-hover-color);
 }
 
+.btm:focus{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
 .header-logo {
   font-family: "Raleway";
   font-weight: 800;
@@ -162,6 +166,7 @@ img {
   background-color: var(--title-color);
   padding-top: 192px;
   padding-bottom: 192px;
+  background-image: linear-gradient(rgba( 46, 47, 66, 0.7), rgba( 46, 47, 66, 0.7)), url("/images/people-office 1.svg");
 }
 
 .hero-text-top {
@@ -186,6 +191,17 @@ img {
   color: var(--title-color);
   margin-bottom: 8px;
 }
+
+.main-icons{
+  display: flex;
+  width: 264px;
+  height: 112px;
+  background: #F4F4FD;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  column-gap: 24px;
+}
+
 
 .main-list {
   font-family: "Roboto", sans-serif;
