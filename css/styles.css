@@ -520,7 +520,7 @@ img {
   display: flex;
 }
 
-.footer-solutions{
+.footer-solutions {
   margin-right: 120px;
   display: block;
 }
@@ -564,10 +564,9 @@ img {
   fill: currentColor;
 }
 
-.social-media-list-icon:hover{
+.social-media-list-icon:hover {
   color: var(--footer-icon-color);
 }
-.social-media-list-icon:focus{
-color: var(--footer-icon-color);
-
+.social-media-list-icon:focus {
+  color: var(--footer-icon-color);
 }
