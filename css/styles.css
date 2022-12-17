@@ -549,7 +549,7 @@ img {
   column-gap: 16px;
 }
 
-.social-media-list-icon {
+.social-media-icon {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -560,13 +560,13 @@ img {
   justify-content: center;
 }
 
-.social-media-list-icon {
+.social-media-icon {
   fill: currentColor;
 }
 
-.social-media-list-icon:hover {
+.social-media-icon:hover {
   color: var(--footer-icon-color);
 }
-.social-media-list-icon:focus {
+.social-media-icon:focus {
   color: var(--footer-icon-color);
 }
